@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: openclaw
+    env: node
+    plan: free
+    startCommand: npm start
